@@ -3,10 +3,9 @@ from time import sleep
 #info
 print("Hi! and welcome to my first programm!\n-Created by Exsite-")
 #variables
-x = 1
 chances = 3 # You can edit this to how many times you can have your password wrong.
 pas = "cookie" # You can edit this to whatever you want, this is your password
-
+# the actual programm
 while True:
     ww = input("Password:")
     if ww == pas:
